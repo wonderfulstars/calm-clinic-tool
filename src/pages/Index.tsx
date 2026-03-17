@@ -4,6 +4,7 @@ import SearchBar from "@/components/shield/SearchBar";
 import CategoryFilter from "@/components/shield/CategoryFilter";
 import DiseaseCard from "@/components/shield/DiseaseCard";
 import DailyTip from "@/components/shield/DailyTip";
+import YearlyDiseaseChart from "@/components/shield/YearlyDiseaseChart";
 import Disclaimer from "@/components/shield/Disclaimer";
 import { diseases, DiseaseCategory } from "@/data/diseases";
 import { useBookmarks } from "@/hooks/useBookmarks";
@@ -48,6 +49,7 @@ const Index = () => {
 
         <div className="space-y-4">
           <DailyTip />
+          <YearlyDiseaseChart />
           <Disclaimer />
 
           <SearchBar value={search} onChange={setSearch} />
