@@ -1,5 +1,4 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
-import { motion } from "framer-motion";
 
 const yearlyData = [
   { year: "2018", viral: 1240, bacterial: 890, genetic: 320, lifestyle: 670, parasitic: 410 },
