@@ -72,7 +72,7 @@ const YearlyDiseaseChart = () => {
       <p className="text-[10px] text-muted-foreground mt-2 text-right">
         Source: WHO & government health reports (sample data)
       </p>
-    </motion.div>
+    </div>
   );
 };
 
