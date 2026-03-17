@@ -50,7 +50,7 @@ const DiseasePage = () => {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="min-h-screen bg-background"
     >
-      <div className="max-w-md mx-auto px-4 pb-8">
+      <div className="max-w-4xl mx-auto px-4 pb-8">
         {/* Top bar */}
         <div className="flex items-center justify-between py-4 sticky top-0 bg-background/80 backdrop-blur-md z-10">
           <button
