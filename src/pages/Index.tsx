@@ -43,7 +43,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="max-w-md mx-auto px-4 pb-8">
+      <div className="max-w-4xl mx-auto px-4 pb-8">
         <Header />
 
         <div className="space-y-4">
@@ -69,12 +69,12 @@ const Index = () => {
             </motion.button>
           </div>
 
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {filtered.length === 0 ? (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-center py-12"
+                className="text-center py-12 col-span-full"
               >
                 <p className="text-4xl mb-3">🔍</p>
                 <p className="text-muted-foreground font-display font-medium">No diseases found</p>
