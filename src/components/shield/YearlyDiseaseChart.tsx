@@ -20,12 +20,7 @@ const categories = [
 
 const YearlyDiseaseChart = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.2 }}
-      className="bg-card border border-border rounded-xl p-4 card-shadow"
-    >
+    <div className="bg-card border border-border rounded-xl p-4 card-shadow">
       <div className="flex items-center gap-2 mb-4">
         <span className="text-lg">📊</span>
         <h3 className="font-display font-semibold text-sm text-card-foreground">
