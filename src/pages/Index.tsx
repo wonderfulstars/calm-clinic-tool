@@ -74,7 +74,7 @@ const Index = () => {
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-center py-12"
+                className="text-center py-12 col-span-full"
               >
                 <p className="text-4xl mb-3">🔍</p>
                 <p className="text-muted-foreground font-display font-medium">No diseases found</p>
