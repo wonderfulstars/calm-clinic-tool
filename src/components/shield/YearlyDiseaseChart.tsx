@@ -1,5 +1,4 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
-import { motion } from "framer-motion";
 
 const yearlyData = [
   { year: "2018", viral: 1240, bacterial: 890, genetic: 320, lifestyle: 670, parasitic: 410 },
@@ -21,12 +20,7 @@ const categories = [
 
 const YearlyDiseaseChart = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.2 }}
-      className="bg-card border border-border rounded-xl p-4 card-shadow"
-    >
+    <div className="bg-card border border-border rounded-xl p-4 card-shadow">
       <div className="flex items-center gap-2 mb-4">
         <span className="text-lg">📊</span>
         <h3 className="font-display font-semibold text-sm text-card-foreground">
@@ -78,7 +72,7 @@ const YearlyDiseaseChart = () => {
       <p className="text-[10px] text-muted-foreground mt-2 text-right">
         Source: WHO & government health reports (sample data)
       </p>
-    </motion.div>
+    </div>
   );
 };
 
