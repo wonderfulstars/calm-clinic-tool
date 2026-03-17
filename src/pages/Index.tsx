@@ -49,6 +49,7 @@ const Index = () => {
 
         <div className="space-y-4">
           <DailyTip />
+          <YearlyDiseaseChart />
           <Disclaimer />
 
           <SearchBar value={search} onChange={setSearch} />
